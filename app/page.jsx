@@ -1,5 +1,6 @@
 "use client"
 
+import { Analytics } from "@vercel/analytics/next"
 import React, { useState, useEffect, useRef } from 'react';
 import { LineChart, Line, BarChart, Bar, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Cell, ResponsiveContainer } from 'recharts';
 import { Menu, X, ChevronDown, ChevronUp, ExternalLink, CheckCircle, Circle, Search, Share2, Mail, Linkedin, Twitter, Copy, Download, Play, Youtube, Newspaper, MessageSquare } from 'lucide-react';
