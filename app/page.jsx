@@ -1563,6 +1563,7 @@ export default function DarkBenchReport() {
           </div>
         </footer>
       </div>
+      <Analytics />
     </div>
   );
 }
